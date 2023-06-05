@@ -9,7 +9,9 @@ const API_URL = 'https://api.openai.com/v1/chat/completions';
 const Chatbot = () => {
   const [conversation, setConversation] = useState([]);
   const [message, setMessage] = useState('');
+  // eslint-disable-next-line no-unused-vars
   const [apiKey, setApiKey] = useState(process.env.REACT_APP_API_KEY);
+  // eslint-disable-next-line no-unused-vars
   const [model, setModel] = useState('gpt-3.5-turbo');
 
   useEffect(() => {
