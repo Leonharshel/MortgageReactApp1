@@ -53,7 +53,7 @@ function HomePages() {
             <Button variant="primary" href="/about">Learn More</Button>
           </Col>
           <Col md={6}>
-            <img src={homeImage} alt="Home Image" width="100%" />
+            <img src={homeImage} alt="Company Logo" width="100%" />
           </Col>
         </Row>
         <Row className="mt-4">
